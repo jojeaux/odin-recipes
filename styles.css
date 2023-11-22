@@ -1,12 +1,100 @@
+
+body {
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 6rem;
     background-color: darkslategrey;
     color: aliceblue;
+    margin: 0;
+}
+
+body h1,
+body img {
+    padding: 0;
+    margin: 0;
+}
+
+.recipeHeaderImage {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
 }
 
 li {
     font-size: 1.2rem;
-    font-family: g;
+    padding: 0;
 }
 
+.recipeCard {
+    padding: 4rem;
+    text-decoration: none;
+    margin: 3rem;
+}
+
+.recipeCard:hover {
+    opacity: 60%;
+}
+
+.recipeCard p {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    border: .4rem solid whitesmoke;
+    padding: .4rem;
+    width: fit-content;
+}
+
+.recipeCard a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    border: .4rem solid whitesmoke;
+    padding: .4rem;
+   
+}
+
+.recipeCardTitle {
+    text-decoration: none;
+}
+
+.lasagnaCard {
+    background-image: url(images/lasagna.jpeg);
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+}
+
+.gumboCard {
+    background-image: url(images/gumbo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+
+}
+
+.nachosCard {
+    background-image: url(images/nachos.jpeg);
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+
+}
+
+.ingredients {
+    border: .2rem solid black;
+    padding: 1rem;
+}
+
+.steps {
+    padding: 1rem;
+}
